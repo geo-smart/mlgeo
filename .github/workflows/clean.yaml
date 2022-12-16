@@ -22,8 +22,7 @@ jobs:
     - name: Move files to be pushed to /output directory
       shell: bash
       run: |
-        chmod 777 .
-        rsync -av --progress . /ouput --exclude .git
+        rsync -arv --exclude=".git" . output/
 
     - name: Push to student repo
       uses:  StefanTodoran/github-action-force-push-to-other-repository@main
