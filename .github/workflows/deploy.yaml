@@ -17,16 +17,10 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      with:
-        token:  ${{ secrets.GITHUB_TOKEN }}
 
     - uses: ./.github/actions/buildresources
       with:
         jb-cache: false
         publish-to-gh: true
         jb-save: true
-        token:  ${{ secrets.GITHUB_TOKEN }}
-
-    - uses: ./.github/actions/studentversion
-      with:
-        token:  ${{ secrets.STUDENT_BOOK_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
