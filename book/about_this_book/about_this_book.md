@@ -4,7 +4,7 @@ The **GeoS**cience **MA**chine Learning **R**esources and **T**raining (GeoSMART
 
 This book is used in the course offered at the University of Washington: Machine Learning in the Geoscienes (AUTMN 2022 - ESS 490C/590C). The corresponding GitHub repository with notebooks for the tutorials and homeworks is [MLGeo](https://github.com/UW-ESS-DS/MLGeo-Autumn22). Find the Docker image for the corresponding jupyter hub [MLGeo Image](https://github.com/UW-ESS-DS/MLGeo-image).
 
-Instructor: Marine Denolle (mdenolle@uw.edu)
+Instructors: Marine Denolle (mdenolle@uw.edu), Akshay Mehra (akmehra@uw.edu)
 Supported by: the GeoSMART team (Stefan Todoran, Nicoleta Cristea, Anthony Arendt, Scott Henderson, Ziheng Sun)
 
 # Overview
@@ -34,11 +34,10 @@ By the end of the quarter, the students should be able to:
 
 # Syllabus
 
-- Module 1 (weeks 1 and 2): Intro on ML in the Geo and basic tool building for Open Sciences 
-- Module 2: (weeks 3 and 4) Creating Machine-Learning Ready Data Sets
-- Module 3: (weeks 5 and 6) Feature extraction and clustering
-- Module 5: (weeks 7 and 8) Machine Learning
-- Module 6: (weeks 9 and 10) Deep Learning
+- Module 1 (week 1 ): Intro on ML in the Geo and basic tool building for Open Sciences 
+- Module 2: (weeks 2,3,4) Data Wrangling and AI-ready data
+- Module 3: (weeks 5,6,7) Classic ML
+- Module 4: (weeks  8,9,10) Deep Learning
 
 # Technical Skills Building
 Throughout the course, the students will build skills in shell, version control using git and GitHub, python programming, high-performance computing strategies, and simple data visualization using python. 
@@ -53,9 +52,9 @@ Each week, students will write a short report about either a paper or a webinar.
 
 # Github with tutorials and homeworks
 
-The course [GitHub](https://github.com/UW-ESS-DS/MLGeo-Autumn22) has the tutorial notebooks. Clone the tutorial
+The course [GitHub](https://github.com/UW-ESS-DS/MLGeo_2023_) has the tutorial notebooks. Clone the tutorial
 
-        git clone "https://github.com/UW-ESS-DS/MLGeo-Autmn22"
+        git clone "https://github.com/UW-ESS-DS/MLGeo_2023_"
 
 To update the local repository from the remote version
         git fetch
